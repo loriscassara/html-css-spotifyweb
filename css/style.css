@@ -22,6 +22,7 @@ body {
 :root {
     --footer-height: 90px;
     --navbar-width: 12rem;
+    --navbar-width-resp: 3rem;
 }
 
 /******************************* 
@@ -35,9 +36,18 @@ nav {
     position: relative;
 }
 
-.container-logo { padding: 16px 0 8px 16px; }
+.container-logo {
+    padding: 16px 0 8px 16px;
+}
 
 .container-logo img { width: 70%; }
+
+#logo2 {
+    width: 20%;
+    left: 16px;
+    top: 16px;
+    display: none;
+}
 
 .container-home {
     padding: 8px 0 4px 16px;

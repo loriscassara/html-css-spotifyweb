@@ -1,0 +1,109 @@
+/*******************************
+    queery nav elements
+*******************************/
+
+@media screen and (max-width: 552px) {
+
+    nav {
+        width: var(--navbar-width-resp);
+    }
+
+    main {
+        width: calc(100% - var(--navbar-width-resp));
+    }
+
+    .container-logo {
+        padding: 0;
+        margin-left: 8px;
+        margin-top: 8px;
+        height: 40px;
+    }
+
+    #logo1 {
+        display: none;
+    }
+
+    #logo2 {
+        display: block;
+        width: 70%;
+    }
+
+    .container-home {
+        padding: 0;
+        margin-left: 8px;
+        margin-top: 8px;
+        height: 40px;
+    }
+
+    .container-home img {
+        width: 70%;
+    }
+
+    .container-home p {
+        display: none;
+    }
+
+    .container-search {
+        padding: 0;
+        margin-left: 8px;
+        margin-top: 8px;
+        height: 40px;
+    }
+
+    .container-search img {
+        width: 70%;
+    }
+
+    .container-search p {
+        display: none;
+    }
+
+    .container-library {
+        padding: 0;
+        margin-left: 8px;
+        margin-top: 8px;
+        height: 40px;
+    }
+
+    .container-library img {
+        width: 70%;
+    }
+
+    .container-library p {
+        display: none;
+    }
+
+    .container-playlist {
+        display: none;
+    }
+
+    .download p {
+        display: none;
+    }
+
+    .container-user hr {
+        display: none;
+    }
+
+    .container-user {
+        padding: 0;
+        height: 40px;
+    }
+
+    .container-user img {
+        width: 30px;
+        left: 8px;
+        bottom: 8px;
+        position: absolute;
+    }
+
+    #down-arrow {
+        position: absolute;
+        left: 13px;
+        bottom: 50px;
+    }
+
+    .user-icon p {
+        display: none;
+    }
+}
