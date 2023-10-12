@@ -43,6 +43,7 @@ nav {
     padding: 8px 0 4px 16px;
     align-items: center;
     font-size: small;
+    transition: all .55s ease;
 }
 
 .container-home img {
@@ -60,6 +61,7 @@ nav {
     padding: 8px 0 4px 16px;
     align-items: center;
     font-size: small;
+    transition: all .55s ease;
 }
 
 .container-search img {
@@ -77,6 +79,7 @@ nav {
     padding: 8px 0 4px 16px;
     align-items: center;
     font-size: small;
+    transition: all .55s ease;
 }
 
 .container-library img {
@@ -109,6 +112,7 @@ nav {
     color: black;
     background-color: gray;
     font-size: 30px;
+    transition: all .55s ease;
 }
 
 .link-plus p {
@@ -140,6 +144,7 @@ nav {
     color: gray;
     border: solid 1px gray;
     border-radius: 50%;
+    transition: all .55s ease;
 }
 
 .download p {

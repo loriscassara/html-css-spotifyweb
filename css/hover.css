@@ -1,0 +1,68 @@
+/******************************* 
+    hover nav elements
+*******************************/
+
+.container-logo img:hover {
+    cursor: pointer;
+}
+
+.container-home:hover {
+    border-right: solid 1px greenyellow;
+    cursor: pointer;
+}
+
+.container-home p:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.container-search:hover {
+    border-right: solid 1px greenyellow;
+    cursor: pointer;
+}
+
+.container-search p:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.container-library:hover {
+    border-right: solid 1px greenyellow;
+    cursor: pointer;
+}
+
+.container-library p:hover {
+    color: white;
+    cursor: pointer;
+}
+
+#plus:hover {
+    background-color: white;
+    cursor: pointer;
+}
+
+.link-plus p:hover {
+    color: white;
+    cursor: pointer;
+}
+
+#down-arrow:hover {
+    color: greenyellow;
+    border: solid 1px greenyellow;
+    cursor: pointer;
+}
+
+.container-user p:hover {
+    cursor: pointer;
+    color: white;
+}
+
+.user-icon img:hover {
+    cursor: pointer;
+    transform: scale(1.3)
+}
+
+.user-icon p:hover {
+    cursor: pointer;
+    color: greenyellow;
+}
