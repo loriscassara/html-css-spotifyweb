@@ -1,6 +1,6 @@
-/* 
+/******************************* 
     common UI elemets
-*/
+*******************************/
 
 * {
     box-sizing: border-box;
@@ -11,57 +11,181 @@
     list-style: none;
 }
 
+body {
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .d-flex { display: flex; }
 
-.main-right { flex-direction: column; }
-
-/********************************************************** 
-    start main elements
-**********************************************************/
+:root {
+    --footer-height: 90px;
+    --navbar-width: 12rem;
+}
 
 /******************************* 
-    navbar elements
+    nav elements
 *******************************/
-.main-left {
-    width: 10vw;
+
+nav {
+    background: black;
+    height: calc(100% - var(--footer-height));
+    width: var(--navbar-width);
+    position: relative;
 }
 
-.navbar {
-    background-color: yellow;
-    width: 10vw;
-    filter: opacity(0.5);
+.container-logo { padding: 16px 0 8px 16px; }
+
+.container-logo img { width: 70%; }
+
+.container-home {
+    padding: 8px 0 4px 16px;
+    align-items: center;
+    font-size: small;
 }
 
+.container-home img {
+    width: 15%;
+    filter: invert(0.5);
+    margin-right: 4px;
+}
+
+.container-home p {
+    color: gray;
+    font-weight: 600;
+}
+
+.container-search {
+    padding: 8px 0 4px 16px;
+    align-items: center;
+    font-size: small;
+}
+
+.container-search img {
+    width: 15%;
+    filter: invert(0.5);
+    margin-right: 4px;
+}
+
+.container-search p {
+    color: gray;
+    font-weight: 600;
+}
+
+.container-library {
+    padding: 8px 0 4px 16px;
+    align-items: center;
+    font-size: small;
+}
+
+.container-library img {
+    width: 15%;
+    filter: invert(0.5);
+    margin-right: 4px;
+}
+
+.container-library p {
+    color: gray;
+    font-weight: 600;
+}
+
+#section-flex {
+   flex-direction: column;
+   justify-content: space-between;
+}
+
+.container-playlist { padding: 16px 0 4px 16px; }
+
+.container-playlist h5 {
+    color: white;
+    font-weight: 600;
+    padding-bottom: 8px;
+}
+
+.link-plus { align-items: center; }
+
+#plus {
+    color: black;
+    background-color: gray;
+    font-size: 30px;
+}
+
+.link-plus p {
+    color: gray;
+    font-weight: 600;
+    font-size: small;
+    padding-left: 8px;
+}
+
+.list li {
+    color: gray;
+    font-weight: 600;
+    font-size: small;
+    padding: 8px 0;
+}
+
+.container-user {
+    padding: 0 0 8px 16px;
+    position: absolute;
+    bottom: 0;
+}
+
+.download {
+    padding: 0 0 4px 0;
+    align-items: center;
+}
+
+#down-arrow {
+    color: gray;
+    border: solid 1px gray;
+    border-radius: 50%;
+}
+
+.download p {
+    color: gray;
+    padding-left: 8px;
+    font-size: small;
+    font-weight: 600;
+}
+
+.container-user hr {
+    color: gray;
+    width: 80%;
+    margin: 8px 0 16px 0;
+}
+
+.user-icon { align-items: center; }
+
+.user-icon img {
+    width: 15%;
+    background-color: gray;
+    border-radius: 50%;
+}
+
+.user-icon p {
+    color: white;
+    font-size: medium;
+    font-weight: 600;
+    padding-left: 8px;
+}
 
 /******************************* 
-    top-main elements
+    main elements
 *******************************/
 
-
-.topmain-container {
-    background-color: red;
-    width: 90vw;
-    height: 10vh;
-    filter: opacity(0.5);
+main {
+    height: calc(100% - var(--footer-height));
+    width: calc(100% - var(--navbar-width));
+    background: #141922;
 }
-
 
 /******************************* 
-    bottom-main elements
+    footer elements
 *******************************/
-.bottommain-container {
-    background-color: blue;
-    width: 90vw;
-    height: 80vh;
-    filter: opacity(0.5);
-}
 
-
-/********************************************************** 
-    start footer elements
-**********************************************************/
-.footer-container {
-    background-color: green;
-    height: 10vh;
-    filter: opacity(0.5);
+footer {
+    width: 100%;
+    height: var(--footer-height);
+    background: #282828;
 }
