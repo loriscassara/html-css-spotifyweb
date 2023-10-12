@@ -1,0 +1,67 @@
+/* 
+    common UI elemets
+*/
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+.d-flex { display: flex; }
+
+.main-right { flex-direction: column; }
+
+/********************************************************** 
+    start main elements
+**********************************************************/
+
+/******************************* 
+    navbar elements
+*******************************/
+.main-left {
+    width: 10vw;
+}
+
+.navbar {
+    background-color: yellow;
+    width: 10vw;
+    filter: opacity(0.5);
+}
+
+
+/******************************* 
+    top-main elements
+*******************************/
+
+
+.topmain-container {
+    background-color: red;
+    width: 90vw;
+    height: 10vh;
+    filter: opacity(0.5);
+}
+
+
+/******************************* 
+    bottom-main elements
+*******************************/
+.bottommain-container {
+    background-color: blue;
+    width: 90vw;
+    height: 80vh;
+    filter: opacity(0.5);
+}
+
+
+/********************************************************** 
+    start footer elements
+**********************************************************/
+.footer-container {
+    background-color: green;
+    height: 10vh;
+    filter: opacity(0.5);
+}
