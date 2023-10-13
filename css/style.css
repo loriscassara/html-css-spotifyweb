@@ -215,6 +215,11 @@ main {
     transition: all .55s ease;
 }
 
+.bottommain-container {
+    overflow: auto;
+    height: calc(100% - var(--footer-height));
+}
+
 .link-container {
     justify-content: center;
     padding-top: 16px;
@@ -418,6 +423,116 @@ main {
     color: gray;
     font-size: small;
     font-weight: 600;
+}
+
+.foryou h2 {
+    padding: 32px 0 8px 16px;
+    color: white;
+}
+
+.subtitle-foryou p {
+    color: gray;
+    font-size: small;
+    font-weight: 600;
+    padding: 0 0 16px 16px;
+}
+
+.release-radar {
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+#playcircle-releaseradar {
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    top: 70px;
+    display: none;
+}
+
+.release-radar img {
+    width: 185px;
+    padding: 16px 16px;
+}
+
+.release-radar h5 {
+    color: white;
+    padding-bottom: 8px;
+    font-size: medium;
+}
+
+.dailymix {
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+#playcircle-dailymix {
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    top: 70px;
+    display: none;
+}
+
+.dailymix img {
+    width: 185px;
+    padding: 16px 16px;
+}
+
+.dailymix h5 {
+    color: white;
+    padding-bottom: 8px;
+    font-size: medium;
+}
+
+.artist-title h2 {
+    padding: 32px 0 8px 16px;
+    color: white;
+}
+
+.subtitle-artist p {
+    color: gray;
+    font-size: small;
+    font-weight: 600;
+    padding: 0 0 16px 16px;
+}
+
+.youg {
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.youg img {
+    width: 185px;
+    padding: 16px 16px;
+    border-radius: 50%;
+}
+
+.youg h5 {
+    color: white;
+    padding-bottom: 8px;
+    font-size: medium;
+}
+
+.einaudi {
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.einaudi img {
+    width: 185px;
+    padding: 16px 16px;
+    border-radius: 50%;
+}
+
+.einaudi h5 {
+    color: white;
+    padding-bottom: 8px;
+    font-size: medium;
 }
 
 /******************************* 

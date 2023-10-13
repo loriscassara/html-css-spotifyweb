@@ -130,4 +130,12 @@
         flex-wrap: wrap;
     }
 
+    .music-container-foryou {
+        flex-wrap: wrap;
+    }
+
+    .icon-artist {
+        flex-wrap: wrap;
+    }
+
 }

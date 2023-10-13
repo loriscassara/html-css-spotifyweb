@@ -173,3 +173,43 @@
     cursor: pointer;
     color: greenyellow;
 }
+
+.release-radar:hover #playcircle-releaseradar {
+    display: block;
+    cursor: pointer;
+    color: greenyellow;
+}
+
+.dailymix:hover #playcircle-dailymix {
+    display: block;
+    cursor: pointer;
+    color: greenyellow;
+}
+
+.release-radar h5:hover {
+    cursor: pointer;
+    color: greenyellow;
+}
+
+.dailymix h5:hover {
+    cursor: pointer;
+    color: greenyellow;
+}
+
+.youg img {
+    cursor: pointer;
+}
+
+.einaudi img {
+    cursor: pointer;
+}
+
+.youg h5:hover {
+    cursor: pointer;
+    color: greenyellow;
+}
+
+.einaudi h5:hover {
+    cursor: pointer;
+    color: greenyellow;
+}
