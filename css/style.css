@@ -215,6 +215,19 @@ main {
     transition: all .55s ease;
 }
 
+.link-container {
+    justify-content: center;
+    padding-top: 16px;
+}
+
+.link-container a {
+    padding: 16px 16px;
+    color: gray;
+    font-weight: 600;
+    font-size: small;
+    transition: all .55s ease;
+}
+
 /******************************* 
     footer elements
 *******************************/

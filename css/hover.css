@@ -77,3 +77,33 @@
     color: greenyellow;
     transform: scale(1.1);
 }
+
+#link0:hover {
+    color: white;
+    border-bottom: solid 1px greenyellow;
+}
+
+#link1:hover {
+    color: white;
+    border-bottom: solid 1px greenyellow;
+}
+
+#link2:hover {
+    color: white;
+    border-bottom: solid 1px greenyellow;
+}
+
+#link3:hover {
+    color: white;
+    border-bottom: solid 1px greenyellow;
+}
+
+#link4:hover {
+    color: white;
+    border-bottom: solid 1px greenyellow;
+}
+
+#link5:hover {
+    color: white;
+    border-bottom: solid 1px greenyellow;
+}
