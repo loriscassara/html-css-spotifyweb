@@ -544,3 +544,31 @@ footer {
     height: var(--footer-height);
     background: #282828;
 }
+
+.footerleft-container {
+    align-items: center;
+}
+
+.footerleft-container img {
+    width: 50px;
+    margin: 16px 16px;
+}
+
+.name-music h6 {
+    color: white;
+    font-weight: 600;
+    font-size: small;
+}
+
+.name-music p {
+    color: gray;
+    font-weight: 600;
+    font-size: x-small;
+}
+
+#heart {
+    margin: 0 8px 0 16px;
+    color: white;
+}
+
+#folder { color: white; }
