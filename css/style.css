@@ -176,6 +176,7 @@ nav {
     width: 15%;
     background-color: gray;
     border-radius: 50%;
+    transition: all .55s ease;
 }
 
 .user-icon p {
@@ -193,6 +194,25 @@ main {
     height: calc(100% - var(--footer-height));
     width: calc(100% - var(--navbar-width));
     background: #141922;
+}
+
+.topmain-container {
+    height: 90px;
+    width: auto;
+    background-color: #080B12;
+    align-items: center;
+    justify-content: end;
+}
+
+#upgrade-button {
+    margin-right: 16px;
+    background-color: transparent;
+    border: solid 1px white;
+    border-radius: 20px;
+    color: white;
+    height: 40px;
+    width: 175px;
+    transition: all .55s ease;
 }
 
 /******************************* 

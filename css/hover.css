@@ -66,3 +66,14 @@
     cursor: pointer;
     color: greenyellow;
 }
+
+/******************************* 
+    hover main elements
+*******************************/
+
+#upgrade-button:hover {
+    cursor: pointer;
+    border: solid 1px greenyellow;
+    color: greenyellow;
+    transform: scale(1.1);
+}

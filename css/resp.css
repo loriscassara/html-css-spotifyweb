@@ -99,7 +99,7 @@
 
     #down-arrow {
         position: absolute;
-        left: 13px;
+        left: 14px;
         bottom: 50px;
     }
 
@@ -107,3 +107,7 @@
         display: none;
     }
 }
+
+/*******************************
+    queery main elements
+*******************************/
