@@ -107,3 +107,69 @@
     color: white;
     border-bottom: solid 1px greenyellow;
 }
+
+.heavy-metal:hover #playcircle-metal {
+    display: block;
+    cursor: pointer;
+    color: greenyellow;
+}
+
+.stranger:hover #playcircle-stranger {
+    display: block;
+    cursor: pointer;
+    color: greenyellow;
+}
+
+.aquietplace:hover #playcircle-aquietplace {
+    display: block;
+    cursor: pointer;
+    color: greenyellow;
+}
+
+.split:hover #playcircle-split {
+    display: block;
+    cursor: pointer;
+    color: greenyellow;
+}
+
+.cure:hover #playcircle-cure {
+    display: block;
+    cursor: pointer;
+    color: greenyellow;
+}
+
+.sinister:hover #playcircle-sinister {
+    display: block;
+    cursor: pointer;
+    color: greenyellow;
+}
+
+.heavy-metal h5:hover {
+    cursor: pointer;
+    color: greenyellow;
+}
+
+.stranger h5:hover {
+    cursor: pointer;
+    color: greenyellow;
+}
+
+.aquietplace h5:hover {
+    cursor: pointer;
+    color: greenyellow;
+}
+
+.split h5:hover {
+    cursor: pointer;
+    color: greenyellow;
+}
+
+.cure h5:hover {
+    cursor: pointer;
+    color: greenyellow;
+}
+
+.sinister h5:hover {
+    cursor: pointer;
+    color: greenyellow;
+}

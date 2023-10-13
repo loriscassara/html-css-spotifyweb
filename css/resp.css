@@ -123,3 +123,11 @@
     }
 
 }
+
+@media screen and (max-width: 1440px) {
+
+    .music-container-recently {
+        flex-wrap: wrap;
+    }
+
+}

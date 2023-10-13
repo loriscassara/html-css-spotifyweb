@@ -228,6 +228,198 @@ main {
     transition: all .55s ease;
 }
 
+.recently-played h2 {
+    padding: 16px 16px;
+    color: white;
+}
+
+.heavy-metal {
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+#playcircle-metal {
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    top: 70px;
+    display: none;
+}
+
+.heavy-metal img {
+    width: 185px;
+    padding: 16px 16px;
+}
+
+.heavy-metal h5 {
+    color: white;
+    padding-bottom: 8px;
+    font-size: medium;
+}
+
+.heavy-metal p {
+    color: gray;
+    font-size: small;
+    font-weight: 600;
+}
+
+.stranger {
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+#playcircle-stranger {
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    top: 70px;
+    display: none;
+}
+
+.stranger img {
+    width: 185px;
+    padding: 16px 16px;
+}
+
+.stranger h5 {
+    color: white;
+    padding-bottom: 8px;
+    font-size: medium;
+    width: 151px;
+}
+
+.stranger p {
+    color: gray;
+    font-size: small;
+    font-weight: 600;
+}
+
+.aquietplace {
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+#playcircle-aquietplace {
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    top: 70px;
+    display: none;
+}
+
+.aquietplace img {
+    width: 185px;
+    padding: 16px 16px;
+}
+
+.aquietplace h5 {
+    color: white;
+    padding-bottom: 8px;
+    font-size: medium;
+}
+
+.aquietplace p {
+    color: gray;
+    font-size: small;
+    font-weight: 600;
+}
+
+.split {
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+#playcircle-split {
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    top: 70px;
+    display: none;
+}
+
+.split img {
+    width: 185px;
+    padding: 16px 16px;
+}
+
+.split h5 {
+    color: white;
+    padding-bottom: 8px;
+    font-size: medium;
+}
+
+.split p {
+    color: gray;
+    font-size: small;
+    font-weight: 600;
+}
+
+.cure {
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+#playcircle-cure {
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    top: 70px;
+    display: none;
+}
+
+.cure img {
+    width: 185px;
+    padding: 16px 16px;
+}
+
+.cure h5 {
+    color: white;
+    padding-bottom: 8px;
+    font-size: medium;
+}
+
+.cure p {
+    color: gray;
+    font-size: small;
+    font-weight: 600;
+}
+
+.sinister {
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+#playcircle-sinister {
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    top: 70px;
+    display: none;
+}
+
+.sinister img {
+    width: 185px;
+    padding: 16px 16px;
+}
+
+.sinister h5 {
+    color: white;
+    padding-bottom: 8px;
+    font-size: medium;
+}
+
+.sinister p {
+    color: gray;
+    font-size: small;
+    font-weight: 600;
+}
+
 /******************************* 
     footer elements
 *******************************/
