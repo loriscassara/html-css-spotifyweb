@@ -545,7 +545,11 @@ footer {
     background: #282828;
 }
 
+.footer-container { justify-content: space-between; }
+
 .footerleft-container {
+    height: 90px;
+    width: auto;
     align-items: center;
 }
 
@@ -569,6 +573,135 @@ footer {
 #heart {
     margin: 0 8px 0 16px;
     color: white;
+    transition: all .55s ease;
 }
 
-#folder { color: white; }
+#folder {
+    color: white;
+    transition: all .55s ease;
+}
+
+.footermid-container {
+    height: 90px;
+    width: auto;
+    padding: 16px 0 0 0;
+    flex-direction: column;
+    align-items: center;
+}
+
+.player-container {
+    margin-bottom: 8px;
+    align-items: center;
+}
+
+#shuffle {
+    color: white;
+    padding-right: 16px;
+    transition: all .55s ease;
+}
+
+#skip-previous {
+    color: white;
+    padding-right: 16px;
+    transition: all .55s ease;
+}
+
+#play-circle {
+    color: white;
+    padding-right: 16px;
+    font-size: 25px;
+    transition: all .55s ease;
+}
+
+#skip-next {
+    color: white;
+    padding-right: 16px;
+    transition: all .55s ease;
+}
+
+#repeat {
+    color: white;
+    transition: all .55s ease;
+}
+
+.time-container p {
+    color: white;
+    font-size: small;
+    font-weight: 600;
+}
+
+.slider-container {
+    margin: 0 8px;
+}
+
+.slider-container .slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 10px;
+    border-radius: 5px;
+    background-color: gray;
+    outline: none;
+}
+
+.slider-container .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 15px;
+    height: 15px;
+    background-color: greenyellow;
+    border-radius: 50%;
+    cursor: pointer;
+    outline: none;
+    box-shadow: 0 0 0 0 rgba(0, 238, 0, .1);
+    transition: .3s ease-in-out;
+}
+
+.footerright-container {
+    height: 90px;
+    width: auto;
+    padding: 32px 16px 0 0;
+}
+
+.volume-container { align-items: center; }
+
+#list-ul {
+    color: white;
+    padding-right: 16px;
+    transition: all .55s ease;
+}
+
+#desktop {
+    color: white;
+    padding-right: 16px;
+    transition: all .55s ease;
+}
+
+#volume-full {
+    color: white;
+    transition: all .55s ease;
+}
+
+.slider-container2 {
+    width: auto;
+    margin: 0 8px;
+}
+
+.slider-container2 .slider {
+    -webkit-appearance: none;
+    width: 80%;
+    height: 10px;
+    border-radius: 5px;
+    background-color: gray;
+    outline: none;
+}
+
+.slider-container2 .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 15px;
+    height: 15px;
+    background-color: greenyellow;
+    border-radius: 50%;
+    cursor: pointer;
+    outline: none;
+    box-shadow: 0 0 0 0 rgba(0, 238, 0, .1);
+    transition: .3s ease-in-out;
+}

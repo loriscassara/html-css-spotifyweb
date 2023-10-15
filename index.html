@@ -11,7 +11,7 @@
 
         <link rel="stylesheet" href="./css/style.css">
         <link rel="stylesheet" href="./css/resp.css">
-        <link rel="stylesheet" href="./css/hover.css">
+        <link rel="stylesheet" href="./css/effects.css">
 
         <!-- 
             boxicon link
@@ -283,7 +283,7 @@
                 footer-container
             -->
             
-            <div class="footer-container">
+            <div class="footer-container d-flex">
 
                 <!-- 
                     footerleft-container
@@ -295,9 +295,50 @@
                         <h6>Sinister</h6>
                         <p>Brano Nome</p>
                     </div>
-                    <div class="bx bx-heart" id="heart"></div>
-                    <div class="bx bx-folder" id="folder"></div>
+                    <div class="folder-container d-flex">   
+                        <div class="bx bx-heart" id="heart"></div>
+                        <div class="bx bx-folder" id="folder"></div>
+                    </div>
+                </div>    
+                
+                <!-- 
+                    footermid-container
+                -->
+                
+                <div class="footermid-container d-flex">
+                    <div class="player-container d-flex">
+                        <div class="bx bx-shuffle" id="shuffle"></div>
+                        <div class="bx bx-skip-previous" id="skip-previous"></div>
+                        <div class="bx bx-play-circle" id="play-circle"></div>
+                        <div class="bx bx-skip-next" id="skip-next"></div>
+                        <div class="bx bx-repeat" id="repeat"></div>
+                    </div>
+                    <div class="time-container d-flex">
+                        <p>0:25</p>
+                        <div class="slider-container">
+                            <span class="bar"><span class="fill"></span></span>
+                            <input class="slider" type="range" min="0" max="100" value="25">
+                        </div>
+                        <p>4:35</p>
+                    </div>
                 </div>
+                
+                <!-- 
+                    footerright-container
+                -->
+                
+                <div class="footerright-container">
+                    <div class="volume-container d-flex">
+                        <div class="bx bx-list-ul" id="list-ul"></div>
+                        <div class="bx bx-desktop" id="desktop"></div>
+                        <div class="bx bx-volume-full" id="volume-full"></div>
+                        <div class="slider-container2">
+                            <span class="bar"><span class="fill"></span></span>
+                            <input class="slider" type="range" min="0" max="100" value="35">
+                        </div>
+                    </div>
+                </div>
+                
 
             </div>
 

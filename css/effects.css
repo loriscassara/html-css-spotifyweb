@@ -213,3 +213,79 @@
     cursor: pointer;
     color: greenyellow;
 }
+
+.slider-container .slider::-webkit-slider-thumb:hover {
+    box-shadow: 0 0 0 5px rgba(0, 238, 0, .1);
+}
+
+.slider-container .slider:active::-webkit-slider-thumb {
+    box-shadow: 0 0 0 10px rgba(0, 238, 0, .2);
+}
+
+.name-music h6:hover {
+    color: greenyellow;
+    cursor: pointer;
+}
+
+.name-music p:hover {
+    color: greenyellow;
+    cursor: pointer;
+}
+
+#heart:hover {
+    color: greenyellow;
+    cursor: pointer;
+}
+
+#folder:hover {
+    color: greenyellow;
+    cursor: pointer;
+}
+
+#shuffle:hover {
+    color: greenyellow;
+    cursor: pointer;
+}
+
+#skip-previous:hover {
+    color: greenyellow;
+    cursor: pointer;
+}
+
+#play-circle:hover {
+    color: greenyellow;
+    cursor: pointer;
+}
+
+#skip-next:hover {
+    color: greenyellow;
+    cursor: pointer;
+}
+
+#repeat:hover {
+    color: greenyellow;
+    cursor: pointer;
+}
+
+#list-ul:hover {
+    color: greenyellow;
+    cursor: pointer;
+}
+
+#desktop:hover {
+    color: greenyellow;
+    cursor: pointer;
+}
+
+#volume-full:hover {
+    color: greenyellow;
+    cursor: pointer;
+}
+
+.slider-container2 .slider::-webkit-slider-thumb:hover {
+    box-shadow: 0 0 0 5px rgba(0, 238, 0, .1);
+}
+
+.slider-container2 .slider:active::-webkit-slider-thumb {
+    box-shadow: 0 0 0 10px rgba(0, 238, 0, .2);
+}
