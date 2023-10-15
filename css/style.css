@@ -36,9 +36,7 @@ nav {
     position: relative;
 }
 
-.container-logo {
-    padding: 16px 0 8px 16px;
-}
+.container-logo { padding: 16px 0 8px 16px; }
 
 .container-logo img { width: 70%; }
 
@@ -630,9 +628,7 @@ footer {
     font-weight: 600;
 }
 
-.slider-container {
-    margin: 0 8px;
-}
+.slider-container { margin: 0 8px; }
 
 .slider-container .slider {
     -webkit-appearance: none;

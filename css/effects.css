@@ -2,9 +2,7 @@
     hover nav elements
 *******************************/
 
-.container-logo img:hover {
-    cursor: pointer;
-}
+.container-logo img:hover { cursor: pointer; }
 
 .container-home:hover {
     border-right: solid 1px greenyellow;
@@ -196,13 +194,9 @@
     color: greenyellow;
 }
 
-.youg img {
-    cursor: pointer;
-}
+.youg img { cursor: pointer; }
 
-.einaudi img {
-    cursor: pointer;
-}
+.einaudi img { cursor: pointer; }
 
 .youg h5:hover {
     cursor: pointer;
@@ -213,6 +207,10 @@
     cursor: pointer;
     color: greenyellow;
 }
+
+/******************************* 
+    hover nav elements
+*******************************/
 
 .slider-container .slider::-webkit-slider-thumb:hover {
     box-shadow: 0 0 0 5px rgba(0, 238, 0, .1);
